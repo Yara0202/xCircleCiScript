@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo "Downloading few Dependecies . . ."
 git clone --depth=1 https://github.com/Wrdn28/Kernel_Asus_X01AD-X.git X01AD
-git clone --depth=1 https://gitlab.com/onettboots/boolx-clang.git clang
+git clone --depth=1 https://github.com/arifmndr17/hyper-clang clang
 
 # Main
 KERNEL_NAME=XnovaTest # IMPORTANT ! Declare your kernel name
