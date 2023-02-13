@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo "Downloading few Dependecies . . ."
 git clone --depth=1 https://github.com/Wrdn28/kernel_asus_X01AD.git X01AD
-git clone --depth=1 https://github.com/Wrdn28/clang-r416183b1.git clang
+git clone --depth=1 https://github.com/llvm/llvm-project/tree/release/16.x clang
 
 # Main
 KERNEL_NAME=Best-x-v2 # IMPORTANT ! Declare your kernel name
