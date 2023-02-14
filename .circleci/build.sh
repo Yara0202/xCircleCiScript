@@ -4,13 +4,13 @@ git clone --depth=1 https://github.com/Wrdn28/kernel_asus_X01AD.git X01AD
 git clone --depth=1 https://github.com/arifmndr17/hyper-clang clang
 
 # Main
-KERNEL_NAME=Extrajoss-OC-TestingForRice # IMPORTANT ! Declare your kernel name
+KERNEL_NAME=Beast-X-V2_EnablePSI # IMPORTANT ! Declare your kernel name
 KERNEL_ROOTDIR=$(pwd)/X01AD # IMPORTANT ! Fill with your kernel source root directory.
 DEVICE_CODENAME=X01AD # IMPORTANT ! Declare your device codename
 DEVICE_DEFCONFIG=X01AD_defconfig # IMPORTANT ! Declare your kernel source defconfig file here.
 CLANG_ROOTDIR=$(pwd)/clang # IMPORTANT! Put your clang directory here.
-export KBUILD_BUILD_USER=Arif # Change with your own name or else.
-export KBUILD_BUILD_HOST=DroidDev # Change with your own hostname.
+export KBUILD_BUILD_USER=Nishant # Change with your own name or else.
+export KBUILD_BUILD_HOST=HKprjctionCI # Change with your own hostname.
 IMAGE=$(pwd)/X01AD/out/arch/arm64/boot/Image.gz-dtb
 DATE=$(date +"%F-%S")
 START=$(date +"%s")
@@ -53,7 +53,7 @@ function compile() {
 	finerr
 	exit 1
    fi
-    git clone --depth=1 https://github.com/ArifDroidDev/AnyKernel3.git AnyKernel
+    git clone --depth=1 https://github.com/Wrdn28/AnyKernel3.git AnyKernel
 	cp out/arch/arm64/boot/Image.gz-dtb AnyKernel
 }
 
