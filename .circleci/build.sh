@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo "Downloading few Dependecies . . ."
 git clone --depth=1 https://github.com/Wrdn28/OrionX_kernel_X01AD.git X01AD
-git clone --depth=1 https://github.com/arifmndr17/hyper-clang clang
+git clone --depth=1 https://github.com/xyz-prjkt/xRageTC-clang clang
 
 # Main
 KERNEL_NAME=OrionX_V1.0-Beta # IMPORTANT ! Declare your kernel name
