@@ -4,7 +4,7 @@ git clone --depth=1 https://github.com/Hirokixd/OrionX.git X01AD
 git clone --depth=1 https://gitlab.com/AnggaR96s/clang-gengkapak.git clang
 
 # Main
-KERNEL_NAME=OrionX_Beta # IMPORTANT ! Declare your kernel name
+KERNEL_NAME=Orion_Beta # IMPORTANT ! Declare your kernel name
 KERNEL_ROOTDIR=$(pwd)/X01AD # IMPORTANT ! Fill with your kernel source root directory.
 DEVICE_CODENAME=X01AD # IMPORTANT ! Declare your device codename
 DEVICE_DEFCONFIG=X01AD_defconfig # IMPORTANT ! Declare your kernel source defconfig file here.
