@@ -78,7 +78,6 @@ function finerr() {
     exit 1
 }
 
-
 # Zipping
 function zipping() {
     cd AnyKernel || exit 1
