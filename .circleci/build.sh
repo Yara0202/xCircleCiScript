@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo "Downloading few Dependecies . . ."
 git clone --depth=1 https://github.com/Yara0202/idk X01AD
-git clone --depth=1 https://github.com/xyz-prjkt/xRageTC-clang clang
+git clone --depth=1 https://github.com/arifmndr17/hyper-clang clang
 
 # Main
 KERNEL_NAME=Orion_Beta # IMPORTANT ! Declare your kernel name
